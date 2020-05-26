@@ -6,7 +6,9 @@
         <span class="red--text">Ba</span>
       </div>
       <v-spacer></v-spacer>
-      <v-icon x-large color="red">mdi-hat-fedora</v-icon>
+      <nuxt-link to="/" style="text-decoration:none">
+        <v-icon x-large color="red">mdi-hat-fedora</v-icon>
+      </nuxt-link>
     </v-app-bar>
     <v-content>
       <nuxt />
